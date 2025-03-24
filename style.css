@@ -31,3 +31,21 @@ button {
 button:hover {
     background-color: #45a049;
 }
+
+/* Dark mode styles */
+body.dark-mode {
+  background-color: #222;
+  color: #f4f4f4;
+}
+
+body.dark-mode h1 {
+  color: #f4f4f4;
+}
+
+body.dark-mode button {
+  background-color: #555;
+}
+
+#darkModeButton {
+  margin-left: 10px;
+}
